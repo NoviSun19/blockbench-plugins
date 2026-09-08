@@ -30,4 +30,4 @@ Plugin.register('model_region_tools', {
             this.region_select.delete();
         }
     }
-}); // Validator test 1.0.0
+}); // Validator test 1.0.1
