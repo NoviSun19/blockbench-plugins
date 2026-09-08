@@ -4,6 +4,7 @@ Plugin.register('model_region_tools', {
     description: 'Tools for selecting regions directly on the 3D model.',
     icon: 'select_all',
     version: '1.0.0',
+    min_version: '4.8.0',
     variant: 'both',
 
     onload() {
@@ -30,4 +31,4 @@ Plugin.register('model_region_tools', {
             this.region_select.delete();
         }
     }
-});
+}); // Validator test 1.0.1
